@@ -1,0 +1,103 @@
+html,body,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 386px;
+    background-image: url(/images/log_bg.jpeg);
+    background-position-x: center; 
+    background-size: 2000px 1334px;
+}
+.bg{
+	position: fixed;
+	width: 100%;
+}
+.signin{
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 228px;
+    margin-left: -150px; 
+    padding: 10px;
+    border-radius: 14px;
+    font-family: "Microsoft yahei";
+    background-color: rgba(56,56,56,0.76);
+}
+.pot{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #428bca;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #428bca;
+    margin: 10px 0;
+    text-align: center;
+}
+.signbox{
+    position: relative;
+    text-align: center;
+}
+
+.input-wrapper{
+    margin-top: 30px;  
+}
+.input-wrapper input{
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Microsoft yahei";
+    background-color: transparent;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.checktxt{
+    width: 112px;
+}
+.checkimg{
+    width: 80px;
+    height: 48px;
+    color: #aaa;
+    vertical-align:bottom;
+}
+.button-wrapper{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.button-wrapper button{
+    font-size: 24px;
+    padding: 8px 0;
+    width: 241px;
+    text-align: center;
+    border-radius: 8px;
+    outline: 0;
+    border-style: none;
+    color: #FFF;
+    font-family: "Microsoft yahei";
+    cursor: pointer;
+    background-color: #428bca;
+}
+.button-wrapper button:active{
+    background-color: #337ab7;
+}
+.warn{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+    bottom: 50px;
+    color: #F00;
+}

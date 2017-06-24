@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.netease.sellsystem.bean.CartDetailsBean" table="cart_details" schema="sellsystem">
+        <id name="cdetailsId" column="cdetails_id"/>
+        <property name="contentId" column="content_id"/>
+        <property name="quantity" column="quantity"/>
+        <property name="cartId" column="cart_id"/>
+        <property name="key1" column="key1"/>
+        <property name="key2" column="key2"/>
+        <property name="key3" column="key3"/>
+    </class>
+</hibernate-mapping>
