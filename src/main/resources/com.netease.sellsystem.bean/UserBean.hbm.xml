@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.netease.sellsystem.bean.UserBean" table="user" schema="sellsystem">
+        <id name="userId" column="user_id"/>
+        <property name="password" column="password"/>
+        <property name="headpic" column="headpic"/>
+        <property name="type" column="user_type"/>
+        <property name="cartId" column="cart_id"/>
+        <property name="name" column="nickname"/>
+        <property name="key1" column="key1"/>
+        <property name="key2" column="key2"/>
+        <property name="key3" column="key3"/>
+    </class>
+</hibernate-mapping>
